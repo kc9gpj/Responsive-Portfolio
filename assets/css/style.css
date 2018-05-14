@@ -1,19 +1,11 @@
+
 /* background all pages */
 body {
     background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/grey_wash_wall.png");
     background-repeat: repeat;
     
 }
-/* responsive resize */
-@media screen and (max-width: 1060px) {
-    #primary { width:67%; }
-    #secondary { width:30%; margin-left:3%; }
-}
-/* responsive resize */
-@media screen and (max-width: 768px) {
-    #primary {width: 100%; font-size: 100%; }
-    #secondary {width: 100%; margin: 0; }
-}
+
 
 /* top navigation menu */
 #Topnav {
@@ -193,3 +185,66 @@ input[type=submit]:hover {
 p {  
     text-indent: 2.0em;  
   }
+
+    /* responsive resize Max width */
+    @media screen and (max-width: 1440px) {
+        body { width: 100%;
+        }
+        
+      
+    }
+        /* responsive resize 980px */
+    @media screen and (max-width: 980px) {
+       body {
+           width: 980px;
+        }     
+        .navbarbottom {
+            width: 980px;
+        }
+          
+    }
+
+    
+    /* responsive resize 768px */
+    @media screen and (max-width: 768px) {
+        body {
+            width: 768px;
+         
+        }
+
+        .navbarbottom {
+            width: 768px;
+        
+        }
+      
+    }
+    
+    
+    /* responsive resize 640px */
+    @media screen and (max-width: 640px) {
+        body {
+            width: 640px;
+               
+        }
+
+        .navbarbottom {
+            width: 640px;
+        }
+     
+    }
+
+     /* responsive resize 4000px */
+     @media screen and (max-width: 400px) {
+        body {
+            width: 400px;
+               
+        }
+
+        .navbarbottom {
+            width: 400px;
+        }
+     
+    }
+
+    
+
